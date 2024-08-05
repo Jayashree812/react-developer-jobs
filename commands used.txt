@@ -1,0 +1,24 @@
+$ node -v
+v20.10.0
+
+$ npm -v
+9.6.6
+
+vite - frontend toolkit
+
+instal react application from vite
+$ npm create vite@latest react-app
+
+instal npm modules
+$ npm i
+
+installed tailwind
+$ npm install -D tailwindcss postcss autoprefixer
+$ npx tailwindcss init -p
+
+copied and pasted the tailwind config to tailwind.config.js file
+
+json server set up
+$ npm i -D json-server
+
+"server": "json-server --watch src/jobs.json --port 8000"
